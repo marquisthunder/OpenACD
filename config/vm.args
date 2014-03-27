@@ -1,6 +1,6 @@
 
 ## Name of the node
--name openacd@127.0.0.1
+-name openacd@192.168.33.10
 
 ## Cookie for distributed erlang
 -setcookie openacd
@@ -20,4 +20,3 @@
 
 ## Tweak GC to run more often
 -env ERL_FULLSWEEP_AFTER 10
-
