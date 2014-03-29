@@ -71,6 +71,10 @@ clean:
 	rm -f $(TARBALL)
 	rm -rf tarball
 	rm -rf OpenACD
+	rm -rf /bin/openacd
+	rm -rf /lib64/openacd
+	rm -rf /var/lib/openacd
+	rm -rf /var/log/openacd
 
 run: compile
 	./rel/openacd/bin/openacd console
